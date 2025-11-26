@@ -1,0 +1,98 @@
+/*
+  Simple CSS for Cozy Cup
+  Color Palette (Browns):
+  #6B4423 - Dark Brown (Coffee)
+  #966F48 - Medium Brown (Wood/Warm)
+  #EFEBE9 - Off-White/Cream (Paper/Milk)
+*/
+
+/* --- Global Styles --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #6B4423; /* Dark brown text */
+    background-color: #EFEBE9; /* Off-white/Cream background */
+}
+
+/* --- Navigation Bar --- */
+.navbar {
+    background-color: #6B4423; /* Dark Brown background */
+    color: #EFEBE9; /* Off-white text */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* Pushes logo to left, links to right */
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: #EFEBE9; /* Link text color */
+    text-decoration: none; /* Removes underline */
+    padding: 5px 10px;
+}
+
+.navbar a:hover {
+    color: #966F48; /* Medium Brown color on hover */
+}
+
+/* --- Hero Section (Main Content) --- */
+.hero-section {
+    text-align: center;
+    padding: 100px 20px; /* Space above and below text */
+    background-color: #EFEBE9; /* Ensures a clean background */
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    color: #6B4423; /* Dark brown heading */
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    color: #333; /* Slightly darker text for contrast */
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #966F48; /* Medium Brown button */
+    color: #EFEBE9; /* Off-white text */
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold;
+    transition: background-color 0.3s; /* Smooth color change on hover */
+}
+
+.btn:hover {
+    background-color: #6B4423; /* Dark Brown on hover */
+}
+
+/* --- Footer --- */
+.footer {
+    background-color: #6B4423; /* Dark Brown background */
+    color: #EFEBE9; /* Off-white text */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Keeps it at the bottom */
+    bottom: 0;
+    width: 100%;
+}

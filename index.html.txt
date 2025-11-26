@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Cup - Your Neighborhood Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Cozy Cup</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero-section">
+        <h1>Welcome to Cozy Cup</h1>
+        <p>Your cozy neighborhood spot for fresh coffee, homemade pastries, and friendly smiles.</p>
+        <p>Relax, catch up, or grab a quick bite. We're here to brighten your day.</p>
+        <a href="#" class="btn">View Menu</a>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Cozy Cup. Designed by [Your Name]</p>
+    </footer>
+
+</body>
+</html>
