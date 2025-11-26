@@ -1,10 +1,4 @@
-/*
-  Simple CSS for Cozy Cup
-  Color Palette (Browns):
-  #6B4423 - Dark Brown (Coffee)
-  #966F48 - Medium Brown (Wood/Warm)
-  #EFEBE9 - Off-White/Cream (Paper/Milk)
-*/
+
 
 /* --- Global Styles --- */
 body {
@@ -95,4 +89,5 @@ body {
     position: fixed; /* Keeps it at the bottom */
     bottom: 0;
     width: 100%;
+
 }
