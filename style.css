@@ -48,7 +48,7 @@ body {
 /* --- Hero Section (Main Content) --- */
 .hero-section {
     text-align: center;
-    padding: 100px 20px; /* Space above and below text */
+    padding: 100vh 20px; /* Space above and below text */
     background-color: #EFEBE9; /* Ensures a clean background */
 }
 
@@ -145,4 +145,5 @@ body {
     margin: 10px 0;
     font-size: 1.1em;
 }
+
 
