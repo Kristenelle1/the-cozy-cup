@@ -91,3 +91,57 @@ body {
     width: 100%;
 
 }
+/* --- Menu Section --- */
+.menu-section {
+    padding: 60px 20px;
+    background-color: #ffffff; /* White background to make the menu pop */
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap; /* Makes it look good on mobile */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-category {
+    text-align: left;
+    min-width: 250px;
+}
+
+.menu-category h3 {
+    border-bottom: 2px solid #966F48;
+    padding-bottom: 10px;
+    color: #6B4423;
+}
+
+.menu-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-category li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px dashed #d1d1d1;
+}
+
+.menu-category li span {
+    font-weight: bold;
+    color: #966F48;
+}
+
+/* --- Contact Section --- */
+.contact-section {
+    padding: 60px 20px;
+    background-color: #EFEBE9;
+    margin-bottom: 60px; /* Space for the fixed footer */
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
